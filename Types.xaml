@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assessment.Types"
+             Title="Types"
+             NavigationPage.HasBackButton="False">
+    <Grid Padding="10"
+          BackgroundColor="#f4f4f4">
+        <ScrollView>
+            <VerticalStackLayout>
+                <Image Source="types.png"/>
+                <Label Margin="0,50" Text=""/>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <ImageButton 
+            Source="pokeball_top.png"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="Button_Clicked"
+            HeightRequest="75"
+            WidthRequest="75"
+            Margin="0,0,15,47"
+            x:Name="menuTop">
+            <ImageButton.Shadow>
+                <Shadow Brush="Black"
+                Offset="5,5"
+                Radius="10"
+                Opacity="0.2" />
+            </ImageButton.Shadow>
+        </ImageButton>
+
+        <VerticalStackLayout
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Padding="10"
+            Margin="0,0,4,75"
+            Spacing="5"
+            x:Name="menuContainer"
+            Opacity="0">
+
+            <Button Text="Home" CornerRadius="50" BackgroundColor="#CC0000" Clicked="HomePageClicked"/>
+            <Button Text="Raids" CornerRadius="50" BackgroundColor="#FF0000" Clicked="RaidsPageClicked"/>
+            <Button Text="Friends" CornerRadius="50" BackgroundColor="#3B4CCA" Clicked="FriendsPageClicked"/>
+            <Button Text="Types" CornerRadius="50" BackgroundColor="#FFDE00" Clicked="TypesPageClicked"/>
+            <Button Text="Player" CornerRadius="50" BackgroundColor="#B3A125" Clicked="PlayerPageClicked"/>
+
+        </VerticalStackLayout>
+
+        <ImageButton 
+            Source="pokeball_bottom.png"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="Button_Clicked"
+            HeightRequest="75"
+            WidthRequest="75"
+            Margin="0,0,15,15"
+            x:Name="menuBottom">
+            <ImageButton.Shadow>
+                <Shadow Brush="Black"
+                Offset="5,5"
+                Radius="10"
+                Opacity="0.2" />
+            </ImageButton.Shadow>
+        </ImageButton>
+    </Grid>
+</ContentPage>

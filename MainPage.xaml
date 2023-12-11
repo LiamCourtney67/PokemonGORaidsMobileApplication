@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assessment.MainPage"
+             Title="Home"
+             NavigationPage.HasBackButton="False"
+             >
+    <Grid Padding="10"
+          BackgroundColor="#f4f4f4">
+        <ScrollView>
+            <VerticalStackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="200"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Image Grid.Row="0" Grid.Column="1" WidthRequest="140" Source="logo.png"/>
+                    <Label Grid.Row="0" Grid.Column="0" FontSize="29" TextColor="Black" VerticalTextAlignment="Center" FontFamily="pokemon" Text="Welcome to Pokémon GO Raids" />
+                    <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" FontSize="29" FontFamily="Gill Sans"
+                        Text="We're a community of trainers who love to team up and take on some of the toughest raids the game has to offer. Our website is designed to be a hub for all things raid-related, whether you're looking for information on the latest raid bosses, tips and strategies for battling them, or just want to connect with other raiders.&#x0a;
+                    
+                        Our application is updated regularly with the latest news and information on all things Pokemon Go, so you can stay on top of the latest raid challenges and events.&#x0a;
+                           
+                        Whether you're a casual player or a seasoned veteran, our website has something for everyone. So come on in, explore our resources, and connect with other trainers from around the world. Together, we'll take on the toughest raids and catch 'em all" />
+                    <Label Grid.Row="3" Margin="0,50" Text=""/>
+                </Grid>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <ImageButton 
+            Source="pokeball_top.png"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="Button_Clicked"
+            HeightRequest="75"
+            WidthRequest="75"
+            Margin="0,0,15,47"
+            x:Name="menuTop">
+            <ImageButton.Shadow>
+                <Shadow Brush="Black"
+                Offset="5,5"
+                Radius="10"
+                Opacity="0.2" />
+            </ImageButton.Shadow>
+        </ImageButton>
+        
+        <VerticalStackLayout
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Padding="10"
+            Margin="0,0,4,75"
+            Spacing="5"
+            x:Name="menuContainer"
+            Opacity="0">
+
+            <Button Text="Home" CornerRadius="50" BackgroundColor="#CC0000" Clicked="HomePageClicked"/>
+            <Button Text="Raids" CornerRadius="50" BackgroundColor="#FF0000" Clicked="RaidsPageClicked"/>
+            <Button Text="Friends" CornerRadius="50" BackgroundColor="#3B4CCA" Clicked="FriendsPageClicked"/>
+            <Button Text="Types" CornerRadius="50" BackgroundColor="#FFDE00" Clicked="TypesPageClicked"/>
+            <Button Text="Player" CornerRadius="50" BackgroundColor="#B3A125" Clicked="PlayerPageClicked"/>
+
+        </VerticalStackLayout>
+
+        <ImageButton 
+            Source="pokeball_bottom.png"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="Button_Clicked"
+            HeightRequest="75"
+            WidthRequest="75"
+            Margin="0,0,15,15"
+            x:Name="menuBottom">
+            <ImageButton.Shadow>
+                <Shadow Brush="Black"
+                Offset="5,5"
+                Radius="10"
+                Opacity="0.2" />
+            </ImageButton.Shadow>
+        </ImageButton>
+    </Grid>
+</ContentPage>

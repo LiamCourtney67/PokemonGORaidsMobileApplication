@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assessment.Raids"
+             Title="Raids"
+             NavigationPage.HasBackButton="False">
+    <Grid Padding="5"
+          BackgroundColor="#f4f4f4">
+        <ScrollView>
+            <VerticalStackLayout>
+                <Grid
+                    BackgroundColor="#e1e1e1"
+                    Margin="0,0,0,10"
+                    >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="120"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="80"/>
+                    </Grid.RowDefinitions>
+
+                    <Frame
+                        Grid.RowSpan="2"
+                        Grid.Column="0"
+                        Grid.Row="0"
+                        Margin="5,25"
+                        Padding="10"
+                        BorderColor="#b4b4b4"
+                        CornerRadius="100"
+                        BackgroundColor="#f4f4f4">
+                        <Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Source="tapu_lele.png"/>
+                    </Frame>
+                    <Label Grid.Row="0" Grid.Column="1" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" FontAttributes="Bold" Text="Tapu Lele"/>
+                    <Label Grid.Row="0" Grid.Column="2" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" Text="Strength: Fire&#x0a;Water"/>
+                    <Label Grid.Row="1" Grid.Column="1" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" Text="Type:&#x0a;Fire&#x0a;Water"/>
+                    <Label Grid.Row="1" Grid.Column="2" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" Text="Weakness:&#x0a;Fire&#x0a;Water"/>
+                </Grid>
+
+                <Grid
+                    BackgroundColor="#e1e1e1"
+                    Margin="0,0,0,10"
+                    >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="120"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="80"/>
+                    </Grid.RowDefinitions>
+
+                    <Frame
+                        Grid.RowSpan="2"
+                        Grid.Column="0"
+                        Grid.Row="0"
+                        Margin="5,25"
+                        Padding="10"
+                        BorderColor="#b4b4b4"
+                        CornerRadius="100"
+                        BackgroundColor="#f4f4f4">
+                        <Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Source="nidoqueen.png"/>
+                    </Frame>
+                    <Label Grid.Row="0" Grid.Column="1" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" FontAttributes="Bold" Text="Nidoqueen"/>
+                    <Label Grid.Row="0" Grid.Column="2" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" Text="Strength: Ground&#x0a;Water"/>
+                    <Label Grid.Row="1" Grid.Column="1" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" Text="Type:&#x0a;Poison&#x0a;Ground"/>
+                    <Label Grid.Row="1" Grid.Column="2" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" Text="Weakness:&#x0a;Fighting&#x0a;Rock"/>
+                </Grid>
+
+                <Grid
+                    BackgroundColor="#e1e1e1"
+                    Margin="0,0,0,10"
+                    >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="120"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="80"/>
+                    </Grid.RowDefinitions>
+
+                    <Frame
+                        Grid.RowSpan="2"
+                        Grid.Column="0"
+                        Grid.Row="0"
+                        Margin="5,25"
+                        Padding="10"
+                        BorderColor="#b4b4b4"
+                        CornerRadius="100"
+                        BackgroundColor="#f4f4f4">
+                        <Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Source="nidoking.png"/>
+                    </Frame>
+                    <Label Grid.Row="0" Grid.Column="1" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" FontAttributes="Bold" Text="Nidoking"/>
+                    <Label Grid.Row="0" Grid.Column="2" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" Text="Strength: Ground&#x0a;Water"/>
+                    <Label Grid.Row="1" Grid.Column="1" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" Text="Type:&#x0a;Poison&#x0a;Ground"/>
+                    <Label Grid.Row="1" Grid.Column="2" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" Text="Weakness:&#x0a;Psychic&#x0a;Fairy"/>
+                </Grid>
+
+                <Grid
+                    BackgroundColor="#e1e1e1"
+                    Margin="0,0,0,10"
+                    >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="120"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="80"/>
+                    </Grid.RowDefinitions>
+
+                    <Frame
+                        Grid.RowSpan="2"
+                        Grid.Column="0"
+                        Grid.Row="0"
+                        Margin="5,25"
+                        Padding="10"
+                        BorderColor="#b4b4b4"
+                        CornerRadius="100"
+                        BackgroundColor="#f4f4f4">
+                        <Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Source="chansey.png"/>
+                    </Frame>
+                    <Label Grid.Row="0" Grid.Column="1" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" FontAttributes="Bold" Text="Chansey"/>
+                    <Label Grid.Row="0" Grid.Column="2" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" Text="Strength: Figthing"/>
+                    <Label Grid.Row="1" Grid.Column="1" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" Text="Type:&#x0a;Normal"/>
+                    <Label Grid.Row="1" Grid.Column="2" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" Text="Weakness:&#x0a;Ghost"/>
+                </Grid>
+
+                <Grid
+                    BackgroundColor="#e1e1e1"
+                    Margin="0,0,0,10"
+                    >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="120"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="80"/>
+                    </Grid.RowDefinitions>
+
+                    <Frame
+                        Grid.RowSpan="2"
+                        Grid.Column="0"
+                        Grid.Row="0"
+                        Margin="5,25"
+                        Padding="10"
+                        BorderColor="#b4b4b4"
+                        CornerRadius="100"
+                        BackgroundColor="#f4f4f4">
+                        <Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Source="pikachu.png"/>
+                    </Frame>
+                    <Label Grid.Row="0" Grid.Column="1" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" FontAttributes="Bold" Text="Pikachu"/>
+                    <Label Grid.Row="0" Grid.Column="2" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" Text="Strength: Ground"/>
+                    <Label Grid.Row="1" Grid.Column="1" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" Text="Type:&#x0a;Electric"/>
+                    <Label Grid.Row="1" Grid.Column="2" VerticalTextAlignment="Center" FontSize="17" TextColor="Black" FontFamily="pokemon" Text="Weakness:&#x0a;Flying"/>
+                </Grid>
+
+                <Label Margin="0,50" Text=""/>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <ImageButton 
+            Source="pokeball_top.png"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="Button_Clicked"
+            HeightRequest="75"
+            WidthRequest="75"
+            Margin="0,0,15,47"
+            x:Name="menuTop">
+            <ImageButton.Shadow>
+                <Shadow Brush="Black"
+                Offset="5,5"
+                Radius="10"
+                Opacity="0.2" />
+            </ImageButton.Shadow>
+        </ImageButton>
+
+        <VerticalStackLayout
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Padding="10"
+            Margin="0,0,4,75"
+            Spacing="5"
+            x:Name="menuContainer"
+            Opacity="0">
+
+            <Button Text="Home" CornerRadius="50" BackgroundColor="#CC0000" Clicked="HomePageClicked"/>
+            <Button Text="Raids" CornerRadius="50" BackgroundColor="#FF0000" Clicked="RaidsPageClicked"/>
+            <Button Text="Friends" CornerRadius="50" BackgroundColor="#3B4CCA" Clicked="FriendsPageClicked"/>
+            <Button Text="Types" CornerRadius="50" BackgroundColor="#FFDE00" Clicked="TypesPageClicked"/>
+            <Button Text="Player" CornerRadius="50" BackgroundColor="#B3A125" Clicked="PlayerPageClicked"/>
+
+        </VerticalStackLayout>
+
+        <ImageButton 
+            Source="pokeball_bottom.png"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="Button_Clicked"
+            HeightRequest="75"
+            WidthRequest="75"
+            Margin="0,0,15,15"
+            x:Name="menuBottom">
+            <ImageButton.Shadow>
+                <Shadow Brush="Black"
+                Offset="5,5"
+                Radius="10"
+                Opacity="0.2" />
+            </ImageButton.Shadow>
+        </ImageButton>
+    </Grid>
+</ContentPage>
