@@ -18,17 +18,16 @@
                         <RowDefinition Height="200"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
 
                     <Image Grid.Row="0" Grid.Column="1" WidthRequest="140" Source="logo.png"/>
                     <Label Grid.Row="0" Grid.Column="0" FontSize="29" TextColor="Black" VerticalTextAlignment="Center" FontFamily="pokemon" Text="Welcome to Pokémon GO Raids" />
-                    <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" FontSize="29" FontFamily="Gill Sans"
-                        Text="We're a community of trainers who love to team up and take on some of the toughest raids the game has to offer. Our website is designed to be a hub for all things raid-related, whether you're looking for information on the latest raid bosses, tips and strategies for battling them, or just want to connect with other raiders.&#x0a;
-                    
-                        Our application is updated regularly with the latest news and information on all things Pokemon Go, so you can stay on top of the latest raid challenges and events.&#x0a;
-                           
-                        Whether you're a casual player or a seasoned veteran, our website has something for everyone. So come on in, explore our resources, and connect with other trainers from around the world. Together, we'll take on the toughest raids and catch 'em all" />
-                    <Label Grid.Row="3" Margin="0,50" Text=""/>
+                    <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" FontSize="29" FontFamily="Gill Sans" Text="We're a community of trainers who love to team up and take on some of the toughest raids the game has to offer. Our website is designed to be a hub for all things raid-related, whether you're looking for information on the latest raid bosses, tips and strategies for battling them, or just want to connect with other raiders."/>
+                    <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" FontSize="29" FontFamily="Gill Sans" Text="Our application is updated regularly with the latest news and information on all things Pokemon Go, so you can stay on top of the latest raid challenges and events."/>
+                    <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" FontSize="29" FontFamily="Gill Sans" Text="Whether you're a casual player or a seasoned veteran, our website has something for everyone. So come on in, explore our resources, and connect with other trainers from around the world. Together, we'll take on the toughest raids and catch 'em all" />
+                    <Label Grid.Row="4" Margin="0,50" Text=""/>
                 </Grid>
             </VerticalStackLayout>
         </ScrollView>
@@ -49,7 +48,7 @@
                 Opacity="0.2" />
             </ImageButton.Shadow>
         </ImageButton>
-        
+
         <VerticalStackLayout
             HorizontalOptions="End"
             VerticalOptions="End"
